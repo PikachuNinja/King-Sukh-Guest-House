@@ -19,7 +19,7 @@ AOS (Animate on Scroll) – Scroll-triggered animations
 Animate.css – Predefined animation effects
 
 🚀 How to Run Locally:
-Clone the repository:git clone https://github.com/your-username/kingsukh-guesthouse.git
+Clone the repository.
 Open the project folder.
 Run index.html in any modern browser.
 
