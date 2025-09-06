@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>King Sukh Guest House</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- FontAwesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- AOS Animation -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top py-3">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="assets/download.jpeg" alt="Logo" height="50" class="me-2">
+      King Sukh Guest House
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+        <li class="nav-item ms-3">
+          <a href="#contact" class="btn btn-primary nav-btn whatsapp-btn">Book Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+  <div class="hero-overlay">
+    <h1 class="animate__animated animate__fadeInDown" data-aos="fade-down">Make Yourself At Home In Our Guest House.</h1>
+    <p class="lead animate__animated animate__fadeInUp mt-2" data-aos="fade-up" data-aos-delay="200">
+      Comfortable rooms, friendly hospitality, and scenic surroundings <br> Simple - Unique - Friendly.
+    </p>
+    <div class="mt-3 animate__animated animate__fadeInUp" data-aos="fade-up" data-aos-delay="400">
+      <a href="#rooms" class="btn btn-primary btn-lg me-2">View Rooms & Prices</a>
+      <a href="#contact" class="btn btn-outline-light btn-lg">Contact / Book</a>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title" data-aos="fade-up">Why Choose Us</h2>
+    <div class="row g-4 mt-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow-sm p-3 card-3d">
+          <div class="card-body">
+            <h5 class="card-title">Safe & Secure</h5>
+            <p class="card-text">24/7 security, clean rooms, and CCTV in common areas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 shadow-sm p-3 card-3d">
+          <div class="card-body">
+            <h5 class="card-title">Nearby Attractions</h5>
+            <p class="card-text">Close to Biharinath Hill, Baranti and Joychandi Hill.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 shadow-sm p-3 card-3d">
+          <div class="card-body">
+            <h5 class="card-title">Local Guide & Meals</h5>
+            <p class="card-text">On-site restaurant & local sightseeing support available.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Rooms Section -->
+
+<section id="rooms" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center" data-aos="fade-up">Rooms & Pricing</h2>
+    <p class="text-center mb-4" data-aos="fade-up" data-aos-delay="100">Starting from ₹1,000/night</p>
+    
+    <!-- Horizontal Scroll Row -->
+    <div class="rooms-scroll d-flex flex-nowrap overflow-auto" data-aos="fade-up" data-aos-delay="200">
+      
+      <!-- Card 1 -->
+      <div class="card shadow-sm card-3d me-3">
+        <img src="assets/small.jpg" class="card-img-top" alt="Cozy Haven Room">
+        <div class="card-body">
+          <h5 class="card-title">Cozy Haven</h5>
+          <p class="card-text">Comfortable single/double room. Free Wi-Fi, attached bathroom.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold">₹1,000</span>
+            <a href="#contact" class="btn btn-primary whatsapp-btn">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card shadow-sm card-3d me-3">
+        <img src="assets/large.jpg" class="card-img-top" alt="Spacious Serenity Suite">
+        <div class="card-body">
+          <h5 class="card-title">Spacious Serenity Suite</h5>
+          <p class="card-text">Larger room with balcony and scenic views.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold">₹1,500</span>
+            <a href="#contact" class="btn btn-primary whatsapp-btn">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card shadow-sm card-3d me-3">
+        <img src="assets/service.jpg" class="card-img-top" alt="Premium Service Room">
+        <div class="card-body">
+          <h5 class="card-title">Premium Service Room</h5>
+          <p class="card-text">Includes room service, guided tours & local experiences.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold">₹1,800</span>
+            <a href="#contact" class="btn btn-primary whatsapp-btn">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card shadow-sm card-3d me-3">
+        <img src="assets/header.jpg" class="card-img-top" alt="Furnite & Comfortable Room">
+        <div class="card-body">
+          <h5 class="card-title">Furnite & Comfortable</h5>
+          <p class="card-text">Well-furnished room with cozy beds, spacious wardrobe & work desk.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold">₹1,600</span>
+            <a href="#contact" class="btn btn-primary whatsapp-btn">Book</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-title" data-aos="fade-up">Gallery</h2>
+
+    <div class="gallery-carousel">
+      <div class="carousel-wrapper">
+        <!-- Card 1 -->
+        <div class="carousel-card">
+          <img src="assets/1.jpg" alt="Gallery 1">
+        </div>
+        <!-- Card 2 -->
+        <div class="carousel-card">
+          <img src="assets/out.jpg" alt="Gallery 2">
+        </div>
+        <!-- Card 3 -->
+        <div class="carousel-card">
+          <img src="assets/ayodhya.webp" alt="Gallery 3">
+        </div>
+        <!-- Card 4 -->
+        <div class="carousel-card">
+          <img src="assets/flower.jpg" alt="Gallery 4">
+        </div>
+        <!-- Card 5 -->
+        <div class="carousel-card">
+          <img src="assets/recep.jpg" alt="Gallery 5">
+        </div>
+        <!-- Card 6 -->
+        <div class="carousel-card">
+          <img src="assets/palash.webp" alt="Gallery 6">
+        </div>
+        <!-- Card 7 -->
+        <div class="carousel-card">
+          <img src="assets/mithonDam.webp" alt="Gallery 7">
+        </div>
+        <!-- Card 8 -->
+        <div class="carousel-card">
+          <img src="assets/room1.jpg" alt="Gallery 8">
+        </div>
+        <!-- Card 9 -->
+        <div class="carousel-card">
+          <img src="assets/large.jpg" alt="Gallery 9">
+        </div>
+        <!-- Card 10 -->
+        <div class="carousel-card">
+          <img src="assets/small.jpg" alt="Gallery 10">
+        </div>
+        <!-- Card 11 -->
+        <div class="carousel-card">
+          <img src="assets/header.jpg" alt="Gallery 11">
+        </div>
+        <!-- Card 12 -->
+        <div class="carousel-card">
+          <img src="assets/service.jpg" alt="Gallery 12">
+        </div>
+      </div>
+
+      <!-- Arrows below carousel -->
+      <div class="arrows">
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Location & Contact Section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+
+    <!-- Left: Contact Info -->
+    <div class="contact-info">
+      <h2>Contact Info</h2>
+      <p><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/dir//Kingsukh+Guest+House+beside+Barshal+Water+Tank+Manpur,+Barhanti,+West+Bengal+723156/" 
+     target="_blank" 
+     style="color: inherit; text-decoration: none;"> Beside Barshal Water Tank, Manpur, Barhanti,<br>West Bengal 723156</p>
+      <p><i class="fas fa-envelope"></i><a href="mailto:kkghosh0099@gmail.com"> kkghosh0099@gmail.com</a></p>
+      <p><i class="fas fa-phone"></i><a href="tel:+919007062180"> +91 9007062180</a></p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/kingsukhguesthouse/"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Right: Contact Form -->
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="First Name" required>
+          <input type="text" placeholder="Last Name" required>
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="Email Address" required>
+          <input type="text" placeholder="Mobile Number" required>
+        </div>
+        <textarea placeholder="Write your message here..." required></textarea>
+        <button type="submit ">Send</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- Location Section -->
+<section id="location" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Info -->
+      <div class="col-md-6" data-aos="fade-right">
+        <h2 class="section-title">Our Locations</h2>
+        <ul class="list-unstyled">
+          <li>✔ Meet with a Guest House Specialist anytime</li>
+          <li>✔ Local attractions & sightseeing spots nearby</li>
+          <li>✔ Affordable rooms starting from ₹1000</li>
+          <li>✔ Amazing hospitality with 24/7 support</li>
+          <li>✔ Free Parking & Snacks</li>
+          <li>✔ Pool, Gym, and Local Tours available</li>
+        </ul>
+        <a href="#contact" class="btn btn-warning mt-3 whatsapp-btn">Learn More</a>
+      </div>
+
+      <!-- Right Side: Map with Locations -->
+      <!-- Right Side: Map with Locations -->
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <div class="map-wrapper">
+          <!-- Embedded Google Map -->
+          <a href="https://www.google.com/maps/dir//Kingsukh+Guest+House+beside+Barshal+Water+Tank+Manpur,+Barhanti,+West+Bengal+723156/@23.5863324,86.8597904,16z/" target="_blank">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.834395947679!2d86.85760121501194!3d23.586332384777497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1694015000000!5m2!1sen!2sin"width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </a>
+          <p class="mt-2">Click on the map to open in Google Maps</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row gx-4 gy-4">
+
+      <!-- Column 1: About -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h5 class="footer-title">Kingsukh Guest House</h5>
+        <p>Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary.</p>
+        <a href="#contact" class="btn btn-warning btn-sm mt-2 whatsapp-btn ">BOOK NOW</a>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h5 class="footer-title">QUICK LINKS</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Browse Destinations</a></li>
+          <li><a href="#">Special Offers & Packages</a></li>
+          <li><a href="#">Room Types & Amenities</a></li>
+          <li><a href="#">Customer Reviews & Ratings</a></li>
+          <li><a href="#">Travel Tips & Guides</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Services -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h5 class="footer-title">OUR SERVICES</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Concierge Assistance</a></li>
+          <li><a href="#">Flexible Booking Options</a></li>
+          <li><a href="#">Airport Transfers</a></li>
+          <li><a href="#">Wellness & Recreation</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h5 class="footer-title">CONTACT US</h5>
+        <a href="https://www.google.com/maps/dir//Kingsukh+Guest+House+beside+Barshal+Water+Tank+Manpur,+Barhanti,+West+Bengal+723156/" 
+     target="_blank" 
+     style="color: inherit; text-decoration: none;">
+        <p><i class="fas fa-map-marker-alt"></i> Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+919007062180">+91 9007062180</a></p>
+        <div class="social-icons mt-2">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/kingsukhguesthouse/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom text-center">
+    <p>Copyright © 2024 Kingsukh Guest House. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+<script>
+  AOS.init({ duration: 1200, once: true });
+  const whatsappButtons = document.querySelectorAll(".whatsapp-btn");
+
+  // Har button ke liye click event add kare
+  whatsappButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      window.open("https://api.whatsapp.com/send?phone=919007062180", "_blank");
+    });
+  });
+</script>
+</body>
+</html>
