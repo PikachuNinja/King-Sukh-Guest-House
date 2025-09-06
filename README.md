@@ -25,11 +25,11 @@ Run index.html in any modern browser.
 
 kingsukh-guesthouse/
 │
-├── index.html               # Main HTML file
-├── style.css                # Custom CSS styling
-├── script.js                # JavaScript file
+├── index.html              
+├── style.css               
+├── script.js            
 │
-├── assets/                  # Images & media
+├── assets/             
 │   ├── header.jpg
 │   ├── small.jpg
 │   ├── large.jpg
@@ -37,8 +37,8 @@ kingsukh-guesthouse/
 │   ├── gallery1.jpg
 │   └── ... (add more images)
 │
-├── libs/                    # External libraries (optional if using CDN)
-│   ├── aos/                 # AOS animation library
+├── libs/                   
+│   ├── aos/                 
 │   ├── animate.css
 │   └── bootstrap/
 │
