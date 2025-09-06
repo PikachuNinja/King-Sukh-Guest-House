@@ -23,5 +23,28 @@ Clone the repository.
 Open the project folder.
 Run index.html in any modern browser.
 
+kingsukh-guesthouse/
+│
+├── index.html               # Main HTML file
+├── style.css                # Custom CSS styling
+├── script.js                # JavaScript file
+│
+├── assets/                  # Images & media
+│   ├── header.jpg
+│   ├── small.jpg
+│   ├── large.jpg
+│   ├── service.jpg
+│   ├── gallery1.jpg
+│   └── ... (add more images)
+│
+├── libs/                    # External libraries (optional if using CDN)
+│   ├── aos/                 # AOS animation library
+│   ├── animate.css
+│   └── bootstrap/
+│
+├── README.md                # Project description (GitHub main page)
+└── LICENSE (optional)       # License file if needed
+
+
 📄 License:
 This project is for educational and internship purposes. Free to use and modify with proper credits.
